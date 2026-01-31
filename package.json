@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-spread-dimensions",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Return a read-only view of an input ndarray where the dimensions of the input ndarray are expanded to a specified dimensionality by spreading dimensions to specified dimension indices and inserting dimensions of size one for the remaining dimensions.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "@stdlib/assert-is-integer-array": "^0.2.2",
     "@stdlib/assert-is-ndarray-like": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
-    "@stdlib/ndarray-base-spread-dimensions": "github:stdlib-js/ndarray-base-spread-dimensions#main",
+    "@stdlib/ndarray-base-spread-dimensions": "^0.1.0",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
