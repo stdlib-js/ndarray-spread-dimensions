@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import spreadDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-spread-dimensions@deno/mod.js';
+import spreadDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-spread-dimensions@v0.1.0-deno/mod.js';
 ```
 
 #### spreadDimensions( ndims, x, dims )
@@ -109,7 +109,7 @@ The function accepts the following arguments:
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-uniform@deno/mod.js';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@deno/mod.js';
-import spreadDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-spread-dimensions@deno/mod.js';
+import spreadDimensions from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-spread-dimensions@v0.1.0-deno/mod.js';
 
 var x = uniform( [ 3, 3, 3 ], -10.0, 10.0 );
 console.log( ndarray2array( x ) );
