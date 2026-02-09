@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import{isPrimitive as r}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@v0.2.3-esm/index.mjs";import{primitives as e}from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-integer-array@v0.2.3-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-ndarray-like@v0.2.2-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-spread-dimensions@v0.1.1-esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/error-tools-fmtprodmsg@v0.2.3-esm/index.mjs";function n(n,d,m){if(!r(n))throw new TypeError(i("null2d",n));if(!s(d))throw new TypeError(i("nullF1",d));if(!e(m))throw new TypeError(i("invalid argument. Third argument must be an array of integers. Value: `%s`.",m));return t(n,d,m,!1)}export{n as default};
-//# sourceMappingURL=index.mjs.map
